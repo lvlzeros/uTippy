@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--Style for ActionBar-->
+    <style name="ActionBar.Solid.uTippy.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <style name="AppTheme.uTippy" parent="@style/AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.uTippy.NoTitle</item>
+    </style>
+    <!--Style for ActionBar-->
+
+    <!--Style for title card view-->
+    <style name="uTippyTitleStyle">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--Style for title card view-->
+
+    <!--Style for tab layout-->
+    <style name="uTippyTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabIndicatorHeight">5dp</item>
+        <item name="tabTextAppearance">@style/uTippyTabText</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="uTippyTabText" parent="TextAppearance.AppCompat.Button">
+        <!--<item name="android:textSize">16sp</item>-->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--Style for tab layout-->
+
+    <!--Style for splash screen-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+    <!--Style for splash screen-->
+
+    <!--Style for splash screen-->
+    <style name="LoginFormStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--Style for splash screen-->
+
+    <!--Style for delete button view-->
+    <style name="uTippyDeleteButtonStyle">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--Style for delete button view-->
+
+</resources>

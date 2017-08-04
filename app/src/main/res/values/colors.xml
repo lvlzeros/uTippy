@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004B85</color>
+    <color name="colorPrimaryDark">#012E52</color>
+    <color name="colorAccent">#BD8A3B</color>
+
+    <!-- colors for to-do priority selection -->
+    <color name="highPriorityColor">#e74c3c</color>
+    <color name="midPriorityColor">#E67E22</color>
+    <color name="lowPriorityColor">#F1C40F</color>
+    <color name="nullPriorityColor">#E1E1E1</color>
+
+    <!-- colors for class highlight-->
+    <color name="classDefaultColor">#e1e1e1</color>
+    <color name="classUpcomingColor">#e74c3c</color>
+</resources>

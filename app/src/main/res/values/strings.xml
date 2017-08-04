@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">uTippy</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_login"> </string>
+    <string name="title_activity_course_content">Course Content</string>
+    <string name="title_activity_file">Files</string>
+    <string name="title_activity_forum">Forum</string>
+    <string name="title_activity_todo_editor">Todo Editor</string>
+    <string name="title_activity_class_editor">Class Editor</string>
+    <string name="title_activity_setting">Settings</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_student_id">ULearn Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_prompt_log_in">Let\'s Go!</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_initalization">Initialization failed, please login again</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="message_welcome">E-learning made simple</string>
+    <string name="message_logout">Are you sure to log out?</string>
+    <string name="message_login_guide">Login using your elearning credential</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+    <string name="hasLoggedIn">has_logged_in</string>
+    <string name="userWebToken">user_web_token</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--  Used by Settings   -->
+    <!-- - - - - - - - - - - -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="pref_enable_data_saver_label">Data Saver</string>
+    <string name="pref_enable_data_saver_key" translatable="false">enable_data_saver</string>
+    <string name="pref_enable_data_saver_true">Content will automatically refresh when data saver is enabled</string>
+    <string name="pref_enable_data_saver_false">Content needs manual refresh when data saver is disabled</string>
+
+    <string name="pref_reminder_group_label">Class Reminder</string>
+    <string name="pref_enable_reminder_label">Enable Class Reminder</string>
+    <string name="pref_enable_reminder_key" translatable="false">enable_class_reminder</string>
+    <string name="pref_enable_reminder_true">uTippy will remind you about your classes</string>
+    <string name="pref_enable_reminder_false">uTippy hopes you don\'t skip class</string>
+
+    <string name="pref_reminder_time_label">Reminder</string>
+    <string name="pref_reminder_time_key" translatable="false">class_reminder_time</string>
+
+    <string name="pref_account_group_label">Account</string>
+    <string name="pref_logout_label">Sign out</string>
+    <string name="pref_logout_key" translatable="false">user_sign_out</string>
+
+    <!-- - - - - - - - - - - - - - - -->
+    <!--  Used by Reminder Dropdown  -->
+    <!-- - - - - - - - - - - - - - - -->
+    <string name="reminder_five_min">5 minutes before</string>
+    <string name="reminder_ten_min">10 minutes before</string>
+    <string name="reminder_fifteen_min">15 minutes before</string>
+    <string name="reminder_twenty_min">20 minutes before</string>
+    <string name="reminder_twenty_five_min">25 minutes before</string>
+    <string name="reminder_thirty_min">30 minutes before</string>
+    <string name="reminder_one_hour">1 hour before</string>
+    <string name="reminder_one_day">1 day before</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--   General Message   -->
+    <!-- - - - - - - - - - - -->
+    <string name="option_cancel">Cancel</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+    <string name="option_confirm">Confirm</string>
+    <string name="option_delete">Delete</string>
+    <string name="prompt_retry">Retry</string>
+    <string name="prompt_fix">Fix It</string>
+    <string name="empty_tooltip">It\'s empty here</string>
+    <string name="toast_retry">Oops, something\'s wrong. Please retry</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!--    General About    -->
+    <!-- - - - - - - - - - - -->
+    <string name="action_follow_facebook">Follow us</string>
+    <string name="action_join_us">Join us</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="prompt_open_with">Open with</string>
+    <string name="message_about">LevelZeros is a voluntary student group leveling up user experience</string>
+    <string name="message_credit">Special thanks to Joshua, Madebyoliver from www.flaticon.com</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!--General Error Message-->
+    <!-- - - - - - - - - - - -->
+    <string name="network_error">Network Error</string>
+    <string name="session_error">Session expired</string>
+    <string name="network_error_toast">Network error, please retry</string>
+    <string name="storage_permission_error">Please grant access to storage</string>
+    <string name="prompt_grant_access">Grant Access</string>
+    <string name="error_empty_input">This is a required field</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Download Task-->
+    <!-- - - - - - - - - - - -->
+    <string name="check_file_progress">Checking file...</string>
+    <string name="title_file_existed">File existed</string>
+    <string name="message_file_existed">Overwrite existing file?</string>
+    <string name="message_downloading">Almost there...</string>
+    <string name="toast_downloading">Downloading...</string>
+    <string name="title_request_download_manager">Download Manager disabled</string>
+    <string name="message_request_download_manager">Download Manager should be enabled to download files</string>
+    <string name="option_enable_download_manager">Enable it</string>
+    <string name="forum_id_init_failed">Failed to initialize forum, please retry</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Storage Task-->
+    <!-- - - - - - - - - - - -->
+    <string name="title_prompt_delete_file">Delete this file</string>
+    <string name="message_prompt_delete_file">Are you sure to delete this file?</string>
+    <string name="title_prompt_delete_folder">Delete this folder</string>
+    <string name="message_prompt_delete_folder">Are you sure to delete this folder? \nEvery file inside will be lost</string>
+    <string name="toast_deleted">Deleted</string>
+    <string name="message_tutorial_storage">Your downloaded files\nwill be here</string>
+
+    <!-- - - - - - - - - - - -->
+    <!-- Used by To-do Task  -->
+    <!-- - - - - - - - - - - -->
+    <string name="prompt_todo_name">Todo name</string>
+    <string name="prompt_todo_description">Todo description (Optional)</string>
+    <string name="title_priority">Priority</string>
+    <string name="button_high_priority">High</string>
+    <string name="button_mid_priority">Mid</string>
+    <string name="button_low_priority">Low</string>
+    <string name="action_save">Save</string>
+    <string name="option_restore">Restore</string>
+    <string name="message_tutorial_todo">Add todo,\nswipe to mark done,\n and swipe to delete</string>
+    <string name="toast_empty_view">Don\'t swipe me T.T</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!-- Used by Class Task  -->
+    <!-- - - - - - - - - - - -->
+    <string name="hint_class_name">Class Name (Required)</string>
+    <string name="hint_class_description">Class Description</string>
+    <string name="hint_class_start_time">Start Time</string>
+    <string name="hint_class_end_time">End Time</string>
+    <string name="hint_class_venue">Class Venue</string>
+    <string name="hint_class_day">Day of Week</string>
+    <string name="error_time_input_backwards">UTP classes can\'t make you time travel backwards!</string>
+    <string name="error_time_input_same">You don\'t have to attend 0 minute class</string>
+    <string name="error_time_input_empty">Both start time and end time must not be empty</string>
+    <string name="title_prompt_class_delete">Delete this class?</string>
+    <string name="title_prompt_class_save">Exit without completing?</string>
+    <string name="message_tutorial_class">Add your class,\nand we will notify you</string>
+    <string name="title_activity_about">About</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!-- Used by SyncAdapter -->
+    <!-- - - - - - - - - - - -->
+    <string name="sync_account_type">utippy.levelzeros.com</string>
+    <string name="content_authority">com.levelzeros.utippy.app</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--    Used by Dialog   -->
+    <!-- - - - - - - - - - - -->
+    <string name="describe_session_expire">Does your internet work well? \nElse it seems that your session was expired!</string>
+    <string name="prompt_relogin">RE-LOGIN</string>
+    <string name="prompt_its_okay">IT\'S OKAY</string>
+
+</resources>

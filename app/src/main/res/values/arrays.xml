@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dayOfWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <array name="pref_reminder_time">
+        <item>@string/reminder_five_min</item>
+        <item>@string/reminder_ten_min</item>
+        <item>@string/reminder_fifteen_min</item>
+        <item>@string/reminder_twenty_min</item>
+        <item>@string/reminder_twenty_five_min</item>
+        <item>@string/reminder_thirty_min</item>
+        <item>@string/reminder_one_hour</item>
+        <item>@string/reminder_one_day</item>
+    </array>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_reminder_group_label">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_enable_reminder_key"
+            android:summaryOff="@string/pref_enable_reminder_false"
+            android:summaryOn="@string/pref_enable_reminder_true"
+            android:title="@string/pref_enable_reminder_label" />
+
+        <ListPreference
+            android:defaultValue="@string/reminder_thirty_min"
+            android:entries="@array/pref_reminder_time"
+            android:entryValues="@array/pref_reminder_time"
+            android:key="@string/pref_reminder_time_key"
+            android:title="@string/pref_reminder_time_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_account_group_label">
+        <Preference
+            android:key="@string/pref_logout_key"
+            android:title="@string/pref_logout_label" />
+    </PreferenceCategory>
+</PreferenceScreen>

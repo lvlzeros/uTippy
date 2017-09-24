@@ -309,6 +309,7 @@ public class LoginActivity extends AppCompatActivity implements UserDetailTask.U
 
             try {
                 String jsonWebTokenResponse = NetworkUtils.getResponseFromHttpsUrl(webTokenRequestUrl, mContext);
+//                String jsonWebTokenResponse = NetworkUtils.getResponseFromHttpUrl(webTokenRequestUrl);
 
                 String webToken = NetworkUtils.getWebToken(jsonWebTokenResponse);
                 return webToken;

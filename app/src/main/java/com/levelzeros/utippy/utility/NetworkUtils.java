@@ -557,7 +557,7 @@ public class NetworkUtils {
      * @return Json string
      * @throws IOException
      */
-    public static String getResponseFroHttpUrl(URL url) throws IOException {
+    public static String getResponseFromHttpUrl(URL url) throws IOException {
 
         try {
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
@@ -603,7 +603,7 @@ public class NetworkUtils {
 
         try {
             CertificateFactory cf = CertificateFactory.getInstance("X.509");
-            InputStream caInput = mContext.getResources().openRawResource(R.raw.entrust_l1k_64);
+            InputStream caInput = mContext.getResources().openRawResource(R.raw.utpedumy);
             Certificate ca;
             try {
                 ca = cf.generateCertificate(caInput);

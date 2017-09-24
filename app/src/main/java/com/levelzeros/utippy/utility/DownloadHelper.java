@@ -88,7 +88,7 @@ public class DownloadHelper extends AsyncTask<URL, Integer, Integer> {
         try {
 
             CertificateFactory cf = CertificateFactory.getInstance("X.509");
-            InputStream caInput = mContext.getResources().openRawResource(R.raw.entrust_l1k_64);
+            InputStream caInput = mContext.getResources().openRawResource(R.raw.utpedumy);
             Certificate ca;
             try {
                 ca = cf.generateCertificate(caInput);
@@ -273,7 +273,7 @@ public class DownloadHelper extends AsyncTask<URL, Integer, Integer> {
 
         try {
             CertificateFactory cf = CertificateFactory.getInstance("X.509");
-            InputStream caInput = mContext.getResources().openRawResource(R.raw.entrust_l1k_64);
+            InputStream caInput = mContext.getResources().openRawResource(R.raw.utpedumy);
             Certificate ca;
             try {
                 ca = cf.generateCertificate(caInput);
